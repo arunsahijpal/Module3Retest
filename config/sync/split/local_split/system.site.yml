@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 2c95d1a1-8564-4ed5-8eee-06649ff64f50
+name: 'Local Employee Management Portal'
+mail: arunsahijpal111@gmail.com
+slogan: ''
+page:
+  403: /node/24
+  404: /node/23
+  front: /node/21
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

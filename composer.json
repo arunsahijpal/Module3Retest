@@ -16,9 +16,13 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/config_split": "^2.0",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
-        "drupal/core-recommended": "^10.3"
+        "drupal/core-recommended": "^10.3",
+        "drupal/devel": "^5.2",
+        "drupal/paragraphs": "^1.17",
+        "drupal/webform": "^6.2"
     },
     "conflict": {
         "drupal/drupal": "*"

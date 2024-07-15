@@ -1,0 +1,8 @@
+uuid: a8ef5f8d-3ee2-41af-ba48-57e23753fc1f
+langcode: en
+status: true
+dependencies: {  }
+id: footer-menu
+label: 'Social Media links'
+description: ''
+locked: false

@@ -1,0 +1,27 @@
+uuid: 5e26c015-e4a9-44f9-9656-04bff721a86c
+langcode: en
+status: true
+dependencies: {  }
+name: bannner
+label: 'Bannner  (800 x 400)'
+effects:
+  d1a6a15e-e3ec-4b27-93ff-ad566f5a9f20:
+    uuid: d1a6a15e-e3ec-4b27-93ff-ad566f5a9f20
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 400
+      upscale: true
+  d53bbaab-2659-408a-85da-71b03c20d110:
+    uuid: d53bbaab-2659-408a-85da-71b03c20d110
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+  d02bc52d-7350-4607-b04f-24e343dd707b:
+    uuid: d02bc52d-7350-4607-b04f-24e343dd707b
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp

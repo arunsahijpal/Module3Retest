@@ -21,3 +21,10 @@ effects:
     weight: 2
     data:
       extension: webp
+  ae4819dc-5ace-41a3-b86f-34eef03f2e66:
+    uuid: ae4819dc-5ace-41a3-b86f-34eef03f2e66
+    id: image_resize
+    weight: 3
+    data:
+      width: 200
+      height: 100

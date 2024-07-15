@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.news.field_image_
     - field.field.node.news.field_news_category
     - field.field.node.news.field_summary
+    - image.style.bannner
     - node.type.news
   module:
     - image
@@ -27,10 +28,10 @@ content:
     region: content
   field_banner_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: bannner
       image_loading:
         attribute: lazy
     third_party_settings: {  }
@@ -38,7 +39,7 @@ content:
     region: content
   field_news_category:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }

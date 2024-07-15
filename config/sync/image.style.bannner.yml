@@ -19,9 +19,10 @@ effects:
     weight: 2
     data:
       extension: webp
-  d02bc52d-7350-4607-b04f-24e343dd707b:
-    uuid: d02bc52d-7350-4607-b04f-24e343dd707b
-    id: image_convert
-    weight: 2
+  eaa0f8e7-fbf3-4186-be49-d08e4958136d:
+    uuid: eaa0f8e7-fbf3-4186-be49-d08e4958136d
+    id: image_resize
+    weight: 3
     data:
-      extension: webp
+      width: 800
+      height: 400
